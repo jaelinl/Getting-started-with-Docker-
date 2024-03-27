@@ -1,0 +1,117 @@
+Installation of Docker via desktop
+
+
+Click the link https://www.docker.com/
+
+
+In the top left corner, click Products >Docker Desktop
+
+
+Download either the Mac version by clicking the link and saving it into your downloads
+
+
+Once software is downloaded, open Docker file
+
+
+Drag and drop Docker into your applications folder
+
+
+When it is complete, visit your Mac’s launchpad and go to Docker
+
+
+Click “OK” to grant Docker privileged access.
+
+
+Enter your MAC username and password > Install Helper
+
+
+Read and Accept Docker Subscription Service Agreement
+
+
+Choose recommended settings > Finish
+
+
+Open Docker, by clicking Docker icon in your top right corner
+
+
+ Got to your launchpad and type “terminal”
+
+
+Enter your terminal and type command “docker --version” , this shows if Docker has been successfully installed 
+
+
+ Open Docker Desktop 
+
+The Docker Desktop Installation is successfully installed. We will now walk through how to Pull all three of Ubuntu, Centos and Kali images. After successfully pulling the images, we will run them on our terminal.
+
+
+
+Go to “Images” on the left side of the Docker desktop
+
+
+
+Type “Ubuntu” in the search box 
+
+
+
+In the top right corner , click the blue arrow button and pull the image
+
+
+
+Once the Ubuntu image is pulled, return to the “Images” tab and type “Centos” in the search box
+
+
+
+Pull Centos image
+
+
+
+Repeat the same process for the Kali image
+
+
+
+Pull the Kali image 
+
+
+
+All three images have been pulled, we will now run them on our terminal. 
+
+
+
+Go to your launchpad and open the terminal
+
+
+
+We will now check to see if the images have been pulled successfully. 
+
+
+
+ In the terminal type "docker images" 
+
+
+ Run the Ubuntu image with docker run -i -t ubuntu
+
+
+
+Use the command exit and run Centos image with docker run -i -t centos
+
+
+
+Use the command exit and run Kali image with docker run -i -t kali
+
+
+
+You can check if your image is running successfully on your Docker desktop. 
+
+
+
+Return to Docker desktop and click the “Images” tab
+
+
+
+You will see your container running 
+
+
+
+We have completed a successful download, installation and configuration of Docker desktop. We have also spun up CentOS, Ubuntu Desktop/Server, and a Kali Container.
+
